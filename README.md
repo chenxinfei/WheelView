@@ -1,9 +1,9 @@
 WheelView
 =========
 
-<img src='image/img01.png' height='500px'/>
-<img src='image/img02.png' height='500px'/>
-<img src='image/img03.png' height='500px'/>
+<img src='image/img01.jpg' height='500px'/>
+<img src='image/img02.jpg' height='500px'/>
+<img src='image/img03.jpg' height='500px'/>
 
 ### How to use
 
