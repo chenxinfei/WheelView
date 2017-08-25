@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TabPagerIndicator">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MRatingBar">
+        <attr name="spacing" format="dimension"/>
+        <attr name="mProgressDrawable" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="MultiSwipeRefreshLayout">
+        <attr name="foreground" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="GalleryView">
+        <attr name="itemWidth" format="dimension"/>
+    </declare-styleable>
+    
+    <declare-styleable name="SwipeFlingAdapterView">
+        <attr name="y_offset_step" format="dimension"/>
+        <attr name="rotation_degrees" format="float"/>
+        <attr name="min_adapter_stack" format="integer"/>
+        <attr name="max_visible" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="MLImageView">
+        <attr name="ml_border_color" format="color"/>
+        <attr name="ml_border_width" format="dimension"/>
+        <attr name="ml_press_alpha" format="integer"/>
+        <attr name="ml_press_color" format="color"/>
+        <attr name="ml_radius" format="dimension"/>
+        <attr name="ml_shape_type" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="round" value="1"/>
+            <enum name="rectangle" value="2"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="RoundAngleImageView">
+        <attr name="roundWidth" format="dimension"/>
+        <attr name="roundHeight" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="card">
+        <attr name="itemMarginTop" format="dimension"/>
+        <attr name="bottomMarginTop" format="dimension"/>
+        <attr name="yOffsetStep" format="dimension"/>
+        <attr name="widthHeightRate" format="float"/>
+    </declare-styleable>
+    <declare-styleable name="ShadowLayout">
+        <attr name="sl_cornerRadius" format="dimension"/>
+        <attr name="sl_shadowRadius" format="dimension"/>
+        <attr name="sl_shadowColor" format="color"/>
+        <attr name="sl_dx" format="dimension"/>
+        <attr name="sl_dy" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="WheelView">
+        <attr name="gravity">
+            <enum name="center" value="17" />
+            <enum name="left" value="3" />
+            <enum name="right" value="5" />
+        </attr>
+        <attr name="lineSpacingMultiplier" format="float" />
+        <attr name="itemsVisible" format="integer" />
+        <attr name="velocityfling" format="integer" />
+        <attr name="scalecontent" format="float" />
+        <attr name="colorGray" format="color" />
+        <attr name="colorBlack" format="color" />
+        <attr name="colorLightGray" format="color" />
+    </declare-styleable>
+    <declare-styleable name="WebViewWithProgress">
+        <attr name="progressStyle" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="circle" value="1"/>
+        </attr>
+        <attr name="barHeight" format="dimension" />
+    </declare-styleable>
+
+</resources>
